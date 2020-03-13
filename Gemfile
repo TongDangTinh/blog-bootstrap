@@ -32,6 +32,7 @@ gem "jbuilder", "~> 2.5"
 # gem "mini_magick", "~> 4.8"
 gem "bootstrap", "~> 4.4.1"
 gem "jquery-rails"
+gem "hirb"
 # Use Capistrano for deployment
 # gem "capistrano-rails", group: :development
 
