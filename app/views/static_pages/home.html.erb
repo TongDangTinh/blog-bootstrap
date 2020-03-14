@@ -1,7 +1,25 @@
 <% provide :title, "Home" %>
-<h1>My Blog</h1>
-<p>
-  This the home page for the
-  <a href="https://www.railstutorials/">Ruby on Rails Tutorial</a>
-  sample application
-</p>
+<div class="row mt-3">
+  <div class="col-md-6 text-center jumbotron border-right">
+    <h3>HMTL</h3>
+    <h5>The language for buiding web pages</h5>
+    <%= link_to "Learn HTML", "#", class: "btn btn-outline-primary" %>
+  </div>
+  <div class="col-md-6 text-center jumbotron ml-auto">
+    <h3>CSS</h3>
+    <h5>The language for styling web pages</h5>
+    <%= link_to "CSS", "#", class: "btn btn-outline-primary" %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6 text-center jumbotron border-right">
+    <h3>jQuery</h3>
+    <h5>The language for buiding web pages</h5>
+    <%= link_to "Learn jQuery", "#", class: "btn btn-outline-primary" %>
+  </div>
+  <div class="col-md-6 text-center jumbotron ml-auto">
+    <h3>Javascript</h3>
+    <h5>The language for styling web pages</h5>
+    <%= link_to "Javascript", "#", class: "btn btn-outline-primary" %>
+  </div>
+</div>
