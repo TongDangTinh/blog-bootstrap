@@ -1,0 +1,26 @@
+<% provide :title, "Sign up" %>
+<h1 class="text-center">Sign up</h1>
+<div class="row">
+  <div class="col-md-6 offset-md-3">
+    <%= form_for [:admin, @user] do |f| %>
+      <%= render "admin/shared/error_messages" %>
+      <%= f.label :name, class: "text-info"%>
+      <%= f.text_field :name, placeholder: "Name", class: "form-control" %>
+
+      <%= f.label :email, class: "text-info mt-2" %>
+      <%= f.email_field :email, placeholder: "Email", class: "form-control" %>
+
+      <%= f.label :passwordpassword, class: "text-info mt-2" %>
+      <%= f.password_field :password, placeholder: "Password", 
+        class: "form-control" %>
+
+      <%= f.label :password_confirmation, "Confirmation", 
+        class: "text-info mt-2" %>
+      <%= f.password_field :password_confirmation, 
+        placeholder: "Password Confirmation", class: "form-control" %>
+
+      <%= f.submit  "Create my account", 
+        class: "btn btn-outline-primary mt-3 form-control" %>
+    <% end %>
+  </div>
+</div>

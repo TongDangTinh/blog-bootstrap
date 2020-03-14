@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= full_title(yield :title) %></title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", media: "all",
+      "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application",
+      "data-turbolinks-track": "reload" %>
+  </head>
+  <body>
+    <div class="container jumbotron-fluid">
+      <%= render "admin/layouts_admin/header" %>
+    </div>
+
+    <div class="container mt-2">
+      <% flash.each do |message_type, message| %>
+        <div class="alert alert-<%= message_type %>">
+          <%= message %>
+        </div>>
+      <% end %>
+
+      <%= yield %>
+    </div>
+  </body>
+</html>
