@@ -40,7 +40,15 @@ vi:
   users:
     # Controllers
     welcome: "Bạn Đã Đăng Ký Thành Công và Chào Mừng Bạn Đến Với Blog!"
+    profile_updated: "Bạn Đã Cập Nhập Thành Công!"
     # Views
     new:
       sign_up: "Đăng ký Mới"
       create_my_account: "Tạo Tài Khoản"
+    edit:
+      edit_user: "Cập Nhật Người Dùng"
+      update_your_profile: "Cập Nhật Thông Tin Người Dùng"
+      update: "Cập Nhập Thông Tin"
+      change: "Thay Đổi Hình Đại Diện"
+    show:
+      show_user: "Thông Tin Của Bạn"
