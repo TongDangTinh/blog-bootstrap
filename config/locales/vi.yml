@@ -32,8 +32,9 @@ vi:
     # views
     new:
       log_in: "Đăng Nhập"
-      sign_up: "Đăng Ký"
+      sign_up: "Đăng Ký Mới"
       new_user: "Người dùng mới?"
+      remember: "Nhớ Để Đăng Nhập Lần "
   
   # Users
   users:
