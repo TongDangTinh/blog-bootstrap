@@ -67,6 +67,7 @@ en:
       log_in: "Log In"
       sign_up: "Sign Up"
       new_user: "New user?"
+      remember: "Remember me on this computer"
 
   # Users
   users:
