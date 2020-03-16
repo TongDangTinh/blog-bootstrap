@@ -38,9 +38,41 @@ en:
       header:
         language: "Languages"
         home: "Home"
-        signup: "Sign up"
-        signin: "Sign in"
+        signup: "Sign Up"
+        signin: "Sign In"
     shared:
+      # Chưa i18n chỗ này được 
       error_messages:
         the_form_contains: "The form contains"
         error: "error"
+  
+  # Layouts
+  layouts:
+    header:
+      language: "Languages"
+      home: "Home"
+      signup: "Sign Up"
+      signin: "Sign In"
+      profile: "Profile"
+      setting: "Setting"
+      log_out: "Log "
+
+  # Sessions
+  sessions:
+    # Controllers
+    invalid: "Invalid email/password combination"
+    welcome: "Welcome to my blog!"
+    # Views
+    new:
+      log_in: "Log In"
+      sign_up: "Sign Up"
+      new_user: "New user?"
+
+  # Users
+  users:
+    # Controllers
+    welcome: "Welcome to my blog!"
+    # Views
+    new:
+      sign_up: "Sign Up"
+      create_my_account: "Create my account"

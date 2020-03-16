@@ -7,7 +7,39 @@ vi:
         home: "Trang Chủ"
         signup: "Đăng Ký"
         signin: "Đăng Nhập"
-  shared:
-    error_messages:
-      the_form_contains: "Có tất cả"
-      error: "lỗi"
+    shared:
+      # Chưa i18n chỗ này được 
+      error_messages:
+        the_form_contains: "Có tất cả"
+        error: "lỗi"
+  
+  # Layouts
+  layouts:
+    header:
+      language: "Ngôn ngữ"
+      home: "Trang Chủ"
+      signup: "Đăng Ký"
+      signin: "Đăng Nhập"
+      profile: "Thông Tin Cá Nhân"
+      setting: "Cài Đặt Người Dùng"
+      log_out: "Đăng Xuất"
+
+  # Sessions
+  sessions:
+    # Controllers
+    invalid: "Email chưa được kích hoạt hoặc mật khẩu không đúng."
+    welcome: "Bạn Đã Đăng Nhập Thành Công!"
+    # views
+    new:
+      log_in: "Đăng Nhập"
+      sign_up: "Đăng Ký"
+      new_user: "Người dùng mới?"
+  
+  # Users
+  users:
+    # Controllers
+    welcome: "Bạn Đã Đăng Ký Thành Công và Chào Mừng Bạn Đến Với Blog!"
+    # Views
+    new:
+      sign_up: "Đăng ký Mới"
+      create_my_account: "Tạo Tài Khoản"
