@@ -5,11 +5,30 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mt-2 ml-auto">
+      <!-- Language -->
+      <div class="dropdown mr-5">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+          id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          <%= t(".language") %>
+        </button>
+        <div class="dropdown-menu" aria-laelledby="dropdownMenuButton">
+          <li>
+            <%= link_to t(".vietnamese"), locale:"vi", class: "dropdown-item" %>
+          </li>
+          <li>
+            <%= link_to t(".english"), locale:"en", class: "dropdown-item" %>
+          </li>
+        </div>
+      </div>
       <li class="nav-item">
-        <%= link_to "Home", "#", class: "nav-link" %>
+        <%= link_to t(".home"), "#", class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <%= link_to "Sigup", "#", class: "nav-link" %>
+        <%= link_to t(".signup"), "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to t(".signin"), "#", class: "nav-link" %>
       </li>
     </ul>
   </div>
