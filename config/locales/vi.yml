@@ -41,6 +41,7 @@ vi:
     # Controllers
     welcome: "Bạn Đã Đăng Ký Thành Công và Chào Mừng Bạn Đến Với Blog!"
     profile_updated: "Bạn Đã Cập Nhập Thành Công!"
+    please_log_in: "Bạn Hãy Đăng Nhập Trước Khi Thực Hiện!"
     # Views
     new:
       sign_up: "Đăng ký Mới"

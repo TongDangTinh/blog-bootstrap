@@ -59,7 +59,7 @@ en:
 
   # Sessions
   sessions:
-    # Controllers
+   ạn Controllers
     invalid: "Invalid email/password combination"
     welcome: "Welcome to my blog!"
     # Views
@@ -74,6 +74,7 @@ en:
     # Controllers
     welcome: "Welcome to my blog!"
     profile_updated: "Profile Updated!"
+    please_log_in: "Please log in!"
     # Views
     new:
       sign_up: "Sign Up"
@@ -85,4 +86,3 @@ en:
       change: "Change Avatar"
     show:
       show_user: "Show user"
-
