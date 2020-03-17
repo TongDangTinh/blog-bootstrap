@@ -35,6 +35,7 @@ gem "jquery-rails"
 gem "hirb"
 gem "font-awesome-rails"
 gem "rails-i18n"
+gem "faker"
 # Use Capistrano for deployment
 # gem "capistrano-rails", group: :development
 
