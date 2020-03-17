@@ -7,11 +7,40 @@ vi:
         home: "Trang Chủ"
         signup: "Đăng Ký"
         signin: "Đăng Nhập"
+        user: "Toàn Bộ Người Dùng"
     shared:
-      # Chưa i18n chỗ này được 
       error_messages:
         the_form_contains: "Có tất cả"
         error: "lỗi"
+    users:
+      # Controllers
+      welcome: "Bạn Vừa Tạo Thành Công Người Dùng!"
+      user_deleted: "Bạn Vừa Xoá người dùng!"
+      profile_updated: "Bạn Đã Cập Nhập Thành Công!"
+      please_log_in: "Bạn Hãy Đăng Nhập Trước Khi Thực Hiện!"
+      # Views
+      index: 
+        all_users: "Toàn Bộ Người Dùng" 
+        name: "Tên"
+        email: "Email"
+        delete: "Xoá"
+        are_you_sure: "Bạn Có Chắc Chắn Xoá Người Dùng Này?"
+        create_new_user: "Tạo Người Dùng Mới"
+      new:
+        sign_up: "Đăng Ký Người Dùng"
+        name: "Tên Của Bạn"
+        email: "Email Của Bạn"
+        password: "Mật Khẩu Của Bạn"
+        confirmation: "Xác Nhận Lại Mật Khẩu"
+        create_my_account: "Tạo Tài Khoản"
+      edit: 
+        edit_user: "Cập Nhật Người Dùng"
+        update_your_profile: "Cập Nhật Thông Tin Người Dùng"
+        name: "Tên Của Bạn"
+        email: "Email Của Bạn"
+        new_password: "Mật Khẩu Mới"
+        confirmation: "Xác Nhận Lại Mật Khẩu"
+        update: "Cập Nhập Thông Tin"
   
   # Layouts
   layouts:
@@ -23,6 +52,7 @@ vi:
       profile: "Thông Tin Cá Nhân"
       setting: "Cài Đặt Người Dùng"
       log_out: "Đăng Xuất"
+      admin_path: "Trang Quản Trị"
 
   # Sessions
   sessions:
@@ -35,6 +65,12 @@ vi:
       sign_up: "Đăng Ký Mới"
       new_user: "Người dùng mới?"
       remember: "Nhớ Để Đăng Nhập Lần "
+      name: "Tên Của Bạn"
+      email: "Email Của Bạn"
+  shared:
+    error_messages:
+      the_form_contains: "Có tất cả"
+      error: "lỗi"
   
   # Users
   users:
@@ -46,6 +82,10 @@ vi:
     new:
       sign_up: "Đăng ký Mới"
       create_my_account: "Tạo Tài Khoản"
+      name: "Tên Của Bạn"
+      email: "Email Của Bạn"
+      password: "Mật Khẩu Của Bạn"
+      confirmation: "Xác Nhận Lại Mật Khẩu"
     edit:
       edit_user: "Cập Nhật Người Dùng"
       update_your_profile: "Cập Nhật Thông Tin Người Dùng"

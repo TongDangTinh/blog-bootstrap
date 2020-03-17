@@ -82,6 +82,8 @@ GEM
     crass (1.0.6)
     erubi (1.9.0)
     execjs (2.7.0)
+    faker (2.10.1)
+      i18n (>= 1.6, < 2)
     ffi (1.12.2)
     font-awesome-rails (4.7.0.5)
       railties (>= 3.2, < 6.1)
@@ -223,6 +225,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  faker
   font-awesome-rails
   hirb
   jbuilder (~> 2.5)
