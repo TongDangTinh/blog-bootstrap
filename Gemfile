@@ -36,6 +36,11 @@ gem "hirb"
 gem "font-awesome-rails"
 gem "rails-i18n"
 gem "faker"
+
+# Giúp Phân Trang
+gem "kaminari"
+# Giao diện đẹp cho phân trang  
+gem "bootstrap4-kaminari-views"
 # Use Capistrano for deployment
 # gem "capistrano-rails", group: :development
 

@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  concern :paginatable do
+    get "(page/:page)", action: :index, on: :collection, as: ''
+  end
+
   scope "(:locale)", locale: /en|vi/ do 
     root "static_pages#home"
     get "/about", to: "static_pages#about"
@@ -14,7 +18,7 @@ Rails.application.routes.draw do
   
   namespace :admin do
     root "users#index"
-    resources :users 
+    resources :users, concerns: :paginatable
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
   end
