@@ -4,6 +4,7 @@
     <%= link_to t(".create_new_user"), new_admin_user_path, 
       class: "btn btn-outline-success" %>
   </div>
+  
   <table class="table table-bordered">
     <thead>
       <tr>
@@ -28,4 +29,8 @@
       <% end %>
     </tbody>
   </table>
+  <div class="field">
+   <%=  paginate @users, theme: "twitter-bootstrap-4",
+    pagination_class: "pagination-sm", nav_class: "d-inline-b" %>
+  </div>
 </div>
